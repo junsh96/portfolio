@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    gap: 100px;
+}
+.photo {
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+}
+
+.info{
+    width: 200px;
+    margin-top: 13px;
+}
+
+div h3{
+    border-bottom: 3px solid black;
+}
+li {
+    list-style: none;
+}
+
+.infoTable tr td{
+    border-bottom: 1px solid black;
+}
+
+#info-2{
+    width: 400px;
+}
+    .grade table{
+    width: 200px;
+    }
+
+table tr td{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.tdDate {
+    font-size: 10px;
+}
+.history {
+    width: 400px;
+}
+.history table{
+    width: 400px;
+}
+.history table tr td{
+    padding-bottom: 10px;
+}
+#info-3{
+    width : 400px;
+}
+#info-3 table{
+    width : 400px;
+}
+#info-3 table tr .tdDate{
+    border-right: 1px solid black;
+}
+
+.projectSkill{
+    display: flex;
+}
+.projectSkill div {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.teamProject{
+    background: green;
+    color : white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    margin-top: 5px;
+}
+.java{
+    background: rgb(185, 74, 74);
+    color : white;
+}
+.js {
+    background: orange;
+    color : white;
+}
+.html{
+    background: skyblue;
+    color : white;
+}
+
+.c{
+    background: rgb(235, 235, 50);
+    color : white;
+}
+
+#info-4 {
+    width:500px;
+}
+
+#info-4 table{
+    width: 500px;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+.projectLink :hover{
+    color:blue;
+}
